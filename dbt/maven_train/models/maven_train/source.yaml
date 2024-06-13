@@ -1,0 +1,8 @@
+version : 1
+
+sources:
+  - name: maven
+    schema: maven_train_data
+    tables:
+    - name : raw_maven_data
+      identifier : railway

@@ -1,0 +1,7 @@
+airbyte/
+logs/
+terraform.*
+terraform/.terraform/
+*.hcl
+terraform/final
+.DS_Store
