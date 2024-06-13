@@ -20,9 +20,7 @@ we use [Airbyte](https://airbyte.com/) to load the CSV data from Google Sheets t
 ![](images/airbyte.png)
 
 Airbyte has full documentation on how to do that on their site [here](https://airbyte.com/how-to-sync/google-sheets-to-bigquery)
-```bash
-pip install foobar
-```
+
 
 ## Data Transformation
 
