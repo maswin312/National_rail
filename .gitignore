@@ -5,3 +5,4 @@ terraform/.terraform/
 *.hcl
 terraform/final
 .DS_Store
+venv
