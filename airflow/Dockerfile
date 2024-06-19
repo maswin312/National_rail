@@ -1,5 +1,3 @@
-FROM apache/airflow:2.9.2
-USER airflow
-RUN pip install apache-airflow-providers-airbyte[http] \
-&& pip install apache-airflow-providers-airbyte \
-&& pip install dbt-bigquery
+FROM apache/airflow:2.7.2-python3.11
+COPY requirements.txt /
+RUN pip install --no-cache-dir -r /requirements.txt
