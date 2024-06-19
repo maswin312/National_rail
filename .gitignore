@@ -1,3 +1,4 @@
+airflow/.env
 airbyte/
 logs/
 terraform.*
