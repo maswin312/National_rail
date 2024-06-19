@@ -4,3 +4,5 @@ dbt_packages/
 logs/
 key.json
 models/maven_train/ontime.sql
+profiles.yml
+.user.yml
